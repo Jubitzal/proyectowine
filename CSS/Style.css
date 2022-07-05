@@ -1,0 +1,177 @@
+/* ---------------- ESTILOS GENERALES ------------  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ----------------------- INDEX -------------------------  */
+.grid{
+    outline: 4px;
+    width: 90%;
+    height: 100vh;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "header header"
+    "main aside"
+    "footer footer";
+}
+
+.item{
+    text-align: center;
+    background: linear-gradient(253deg, rgba(171,165,168,1) 32%, rgba(227,224,230,0.3594625350140056) 90%);
+}
+
+.item1{
+    text-align: right;
+    padding: 20px;
+    grid-area: header;
+    height: 5vh;
+}
+
+.item2{
+    text-align: left;
+    padding: 100px;
+    grid-area: main;
+    height: 90vh;
+}
+
+.item2 h1{
+    font-size: 36.5px;
+    padding-bottom: 100px;
+    color: purple;
+}
+
+.item2 li{
+    list-style-type: none;
+    height: 85px; 
+}
+
+.item2 a{
+    text-decoration: none;
+}
+
+.item2 p{
+    padding-top: 50px;
+    text-align: left;
+    font-size: 20px;
+    color: black;
+}
+
+.item3{
+    grid-area: aside;
+}
+
+.imagen img{
+    height: 165px;
+    width: 540px;
+    margin-top: 45px;
+}
+
+.item4{
+    color: black;
+    text-align: center;
+    padding: 25px;
+    grid-area: footer;
+    height: 5vh;
+}
+
+/* ------------------------ ABOUT ---------------------  */
+
+.grid1{
+    outline: 4px solid white;
+    width: 90%;
+    height: 100vh;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 1.8fr 1.8fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "header header header"
+    "main seccion aside"
+    "footer footer footer";
+}
+
+.regis{
+    text-align: right;
+    margin-right: 20px;
+}
+
+.tite{
+    text-align: left;
+    font-size: 50px;
+    color: purple;
+    margin-left: 20px;
+}
+
+.about{
+    text-align: center;
+}
+
+.itema{
+    background: linear-gradient(253deg, rgba(162,217,191,0.3594625350140056) 90%, rgba(171,165,168,0.10876225490196079) 94%);
+    grid-area: header;
+    height: 10vh;
+}
+
+.itemb{
+    grid-area: main;
+    height: 90vh;
+}
+
+.itemb img{
+    height: 250px;
+    width: 550px;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-top: 70px;
+    transform: translate(20px);
+}
+
+.itemb p{
+    text-align: justify;
+    padding: 20px;
+    color: purple;
+    
+}
+
+.itemc{
+    grid-area: seccion;
+    height: 90vh;
+}
+
+.itemc p{
+    text-align: justify;
+    padding: 30px;
+    margin-top: 60px;
+}
+
+.itemc iframe{
+    height: 250px;
+    width: 550px;
+    padding: 10px;
+}
+
+.itemd{
+    grid-area: aside;
+    height: 90vh;
+    color: white;
+}
+.itemd img{
+    height: 600px;
+    width: 180px; 
+    padding: 20px;
+}
+
+.iteme{
+    color: black;
+    text-align: center;
+    padding: 25px; 
+    grid-area: footer;
+    height: 5vh;
+}
+
