@@ -113,7 +113,7 @@
 }
 
 .itema{
-    background: linear-gradient(253deg, rgba(162,217,191,0.3594625350140056) 90%, rgba(171,165,168,0.10876225490196079) 94%);
+    
     grid-area: header;
     height: 10vh;
 }
@@ -128,8 +128,6 @@
     width: 550px;
     padding: 10px;
     margin-bottom: 30px;
-    margin-top: 70px;
-    transform: translate(20px);
 }
 
 .itemb p{
